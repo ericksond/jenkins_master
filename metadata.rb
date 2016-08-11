@@ -1,0 +1,17 @@
+name             'jenkins_master'
+maintainer       'YOUR_NAME'
+maintainer_email 'YOUR_EMAIL'
+license          'All rights reserved'
+description      'Installs/Configures jenkins_master'
+long_description 'Installs/Configures jenkins_master'
+version          '0.1.0'
+
+depends 'selinux_policy', '~> 0.9.5'
+depends 'jenkins', '~> 2.6.0'
+
+depends 'java'
+depends 'ant'
+depends 'git'
+depends 'composer'
+depends 'nginx'
+depends 'chef-vault'
