@@ -1,2 +1,2 @@
-### Jenkins 2.0 Cookbook
+### Jenkins 2.x Cookbook
 
